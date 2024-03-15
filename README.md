@@ -8,6 +8,10 @@ Create a full-stack weather dashboard application utilizing Nuxt 3 for the front
 
 You will be provided with a starter template that includes a configured Nuxt 3 frontend and a FastAPI backend. You are required to use this template. Feel free to install additional packages as needed to complete the challenge.
 
+### Design
+
+You must adhere to the design outlined in the screenshots within this document. It is essential to follow not just the layout but also the colors and other details as specified in the screenshots within this document. You can find the used icons in the `icons` folder.
+
 ## Challenge Requirements
 
 ### Main Page
@@ -19,13 +23,19 @@ You will be provided with a starter template that includes a configured Nuxt 3 f
     -   The current rainfall in millimeters.
     -   A "Remove" button for each location. Clicking this button should trigger a confirmation popup before the location is deleted from the table.
 
+![table](/design/table.png)
+
 ### Detailed Forecast
 
 -   **Forecast Sidebar:** Clicking on a row within the table should open a sidebar. This sidebar will provide a detailed temperature and rainfall forecast for the next 7 days for the selected location.
 
+![table](/design/sidebar.png)
+
 ### Location Management
 
 -   **Add Location:** Incorporate a button above the table to add new locations. This will open a popup where users can search for and select a location to add to the table. Make sure the user can't submit the form if no location was selected.
+
+![table](/design/modal.png)
 
 ### Database Integration
 
